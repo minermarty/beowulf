@@ -27,7 +27,7 @@ void ConveyorOff::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void ConveyorOff::Execute() {
-	Robot::conveyor->conveyorMotor->Set(0);
+	
 }
 
 // Make this return true when this Command no longer needs to run execute()
